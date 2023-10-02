@@ -1,0 +1,16 @@
+{
+  "name": "text-case-mperwe",
+  "version": "1.0.0",
+  "description": "sentence case",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sentence",
+    "case"
+  ],
+  "author": "Frank Mperwe",
+  "license": "ISC"
+}
