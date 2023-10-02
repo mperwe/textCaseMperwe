@@ -1,11 +1,11 @@
 // Function to convert a string to sentence case
 function toSentenceCase(inputString) {
     if (typeof inputString !== 'string') {
-        throw new Error('string in put');
+        throw new Error('Enter a string');
     }
     // input string - to words
     const words = inputString.toLowerCase().split(' ');
-    // Enabling santence -casing
+    // Enabling sentence casing
     const sentenceCaseWords = words.map(word => {
         return word.charAt(0).toUpperCase() + word.slice(1);
     });
