@@ -6,5 +6,5 @@
 const {toSentenceCase} = require('sentence-case-mpr');
 const myString = "frAnk mpErwe";
 console.log(toSentenceCase(myString)); 
-##Out-put
+## Out-put
 Frank Mperwe"
