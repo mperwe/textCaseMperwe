@@ -1,11 +1,10 @@
 # SentenceCaseMpr
-- This module transform string text to Sentence Case
-
+- This module transforms string text to Sentence Case
 ## How to use it
-```
-- install package using npm i sentence-case-mpr
-- import package using `import sentenceCaseMpr from "sentence-case-mpr"`
-- Example: textCaseMperwe('this is an example')
-- Result: This Is An Example
-
-```
+- Install the package using npm i sentence-case-mpr
+## Example
+const {toSentenceCase} = require('sentence-case-mpr');
+const myString = "frAnk mpErwe";
+console.log(toSentenceCase(myString)); 
+##Out-put
+Frank Mperwe"
